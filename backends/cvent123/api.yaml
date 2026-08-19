@@ -1,0 +1,26 @@
+blocks:
+  - name: Step1
+    step:
+      integration: python
+      python:
+        body:
+          path: ./step1.py
+metadata:
+  id: 42ad3ef3-e907-4e07-a7fd-ffdea1ece31e
+  name: cvent123
+  organization: 615b08ce-650e-468a-91a9-d38c866d2313
+trigger:
+  job:
+    dayOfMonth: 1
+    days:
+      friday: false
+      monday: false
+      saturday: false
+      sunday: true
+      thursday: false
+      tuesday: false
+      wednesday: false
+    frequency: 10
+    interval: INTERVAL_MINUTE
+    time: 2026-08-13T04:00:00.000Z
+    timezoneLocale: America/New_York

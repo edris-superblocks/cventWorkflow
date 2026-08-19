@@ -1,0 +1,12 @@
+{
+  "configType": "ROOT",
+  "metadata": {
+    "cliVersion": "2.0.152-next.0"
+  },
+  "resources": {
+    "42ad3ef3-e907-4e07-a7fd-ffdea1ece31e": {
+      "location": "backends/cvent123",
+      "resourceType": "BACKEND"
+    }
+  }
+}
