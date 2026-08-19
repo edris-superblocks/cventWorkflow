@@ -5,6 +5,12 @@ blocks:
       python:
         body:
           path: ./step1.py
+  - name: Step2
+    step:
+      integration: javascript
+      javascript:
+        body:
+          path: ./step2.js
 metadata:
   id: 42ad3ef3-e907-4e07-a7fd-ffdea1ece31e
   name: cvent123
