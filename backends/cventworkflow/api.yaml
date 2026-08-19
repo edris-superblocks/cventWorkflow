@@ -1,0 +1,13 @@
+blocks:
+  - name: Step1
+    step:
+      integration: python
+      python:
+        body:
+          path: ./step1.py
+metadata:
+  id: 2a9a7045-5262-4dae-8c9c-4d55979433ec
+  name: CVENTWORKFLOW
+  organization: 615b08ce-650e-468a-91a9-d38c866d2313
+trigger:
+  workflow: {}
