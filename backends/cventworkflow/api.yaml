@@ -5,6 +5,12 @@ blocks:
       python:
         body:
           path: ./step1.py
+  - name: Step2
+    step:
+      integration: javascript
+      javascript:
+        body:
+          path: ./step2.js
 metadata:
   id: 2a9a7045-5262-4dae-8c9c-4d55979433ec
   name: CVENTWORKFLOW
